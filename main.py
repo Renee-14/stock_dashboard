@@ -312,4 +312,4 @@ while True:
 
     except Exception as e:
         st.error(f"Update error: {str(e)}")
-        time.sleep(5)
+        time.sleep(10)

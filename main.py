@@ -308,7 +308,7 @@ while True:
         display_main_content()
 
         # Small delay to prevent high CPU usage
-        time.sleep(0.1)
+        time.sleep(refresh_rate)
 
     except Exception as e:
         st.error(f"Update error: {str(e)}")
